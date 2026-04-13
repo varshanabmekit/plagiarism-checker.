@@ -6,7 +6,7 @@ doc1 = "This project is about sparse matrix storage"
 doc2 = "This project explains efficient matrix storage"
 
 # Convert text to matrix
-vectorizer = CountVectorizer()
+vectorizer = CountVectorizer() 
 matrix = vectorizer.fit_transform([doc1, doc2])
 
 # Convert to sparse matrix
